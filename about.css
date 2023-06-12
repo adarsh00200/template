@@ -1,0 +1,59 @@
+body{
+    font-family:'Poppins',sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-section {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+  text-align: center;
+   margin-bottom: 20px;
+   min-height: 200px;
+}
+
+.about-section h2{
+  position: absolute;
+
+}
+.about-section p{
+  position: absolute;
+  top: 75px;
+}
+
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.card-title{
+  position: absolute;
+}
+
+
+
+/**********/

@@ -1,0 +1,110 @@
+.page-banner{
+    padding: 0px 20px 0 20px;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    transition: padding-top .35s ease;
+    color: rgba(0, 0, 0, 0.8);
+}
+.page-banner .container{
+    max-width: 768px;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 50px 0 55px 0;
+}
+.page-banner h1{
+    font-weight: 300;
+    font-family: "Quarto A","Quarto B",serif;
+    font-size: 3.875rem;
+}
+/****media *********/
+@media screen and (min-width: 992px){
+.page-banner {
+    padding-top: 110px;
+}
+}
+@media screen and (min-width: 768px){
+.page-banner {
+    padding-top: 0px;
+}
+}
+
+@media screen and (min-width: 576px){
+.page-banner {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
+@media screen and (min-width: 992px){
+.page-banner .container {
+    padding: 90px 0 100px 0;
+}}
+@media screen and (min-width: 576px){
+.page-banner .container {
+    padding: 9.75% 0 10.75% 0;
+}}
+
+@media screen and (min-width: 992px){
+.page-banner h1 {
+    font-size: 80px;
+    font-size: 5rem;
+}}
+@media screen and (min-width: 576px){
+.page-banner h1 {
+    font-size: 5.875vw;
+}}
+
+.container h3{
+    align-items: center;
+    top: 0px;
+    font-size: 2rem;
+    display: flex;
+    position: absolute;
+    font-family: "Quarto A","Quarto B",serif;
+}
+@media screen and (min-width: 576px){
+    .container h3{
+        align-items: center;
+        top: 0px;
+        font-size: 3rem;
+        display: flex;
+        position: absolute;
+    }
+}
+p{
+    font-size: large;
+    font-family: "Quarto A","Quarto B",serif;
+}
+
+.img-banner{
+    position: relative;
+    width: 640px;
+    height: 425px;
+}
+.img-banner img{
+    width: 640px;
+    height: 425px;
+}
+.give{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 140px;
+}
+.btn-info{
+    background: #086ff0 !important;
+    position: absolute;
+    top: 450px;
+    width: 25%;
+}
+
+.btn-info a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-info:hover {
+    background: #F08908!important;
+}
